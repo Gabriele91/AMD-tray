@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1372186861 source:/home/Gabriele/QtProjects/AMDtray/Daemon/BaseDaemon.cpp
+	"BaseDaemon.hpp"
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<errno.h>
+	<unistd.h>
+	<syslog.h>
+	<string.h>
+	<signal.h>
+
+1372186845 /home/Gabriele/QtProjects/AMDtray/Daemon/BaseDaemon.hpp
+
+1372190549 source:/home/Gabriele/QtProjects/AMDtray/Daemon/main.cpp
+	"AMDDaemon.hpp"
+
+1372244823 source:/home/Gabriele/QtProjects/AMDtray/Daemon/AMDDaemon.cpp
+	"AMDDaemon.hpp"
+
+1372244764 /home/Gabriele/QtProjects/AMDtray/Daemon/AMDDaemon.hpp
+	"BaseDaemon.hpp"
+	"AMDSettings.hpp"
+	<errno.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+
+1372245553 source:/home/Gabriele/QtProjects/AMDtray/Daemon/AMDSettings.cpp
+	"AMDSettings.hpp"
+	"Utils.hpp"
+
+1372232925 /home/Gabriele/QtProjects/AMDtray/Daemon/AMDSettings.hpp
+	<string>
+	<vector>
+
+1372233353 /home/Gabriele/QtProjects/AMDtray/Daemon/Utils.hpp
+	<string>
+	<sstream>
+
+1372233313 source:/home/Gabriele/QtProjects/AMDtray/Daemon/Utils.cpp
+	"Utils.hpp"
+	<sys/types.h>
+	<sys/stat.h>
+	<sstream>
+	<fstream>
+	<unistd.h>
+	<stdlib.h>
+
